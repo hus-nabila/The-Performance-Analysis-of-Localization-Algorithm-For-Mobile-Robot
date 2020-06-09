@@ -29,10 +29,10 @@ int main(int argc, char **argv)
     while (ros::ok())
     {
 
-        geometry_msgs::Pose error;
-        error.position.x = poseGRNDx;
-        error.position.y = poseGRNDy;
-        error.orientation.w = poseGRNDa;
+        geometry_msgs::Pose;
+        position.x = poseAMCLx;
+        position.y = poseAMCLy;
+        orientation.w = poseAMCLa;
 	counter++;
         std::cout << counter << '\n';
         ROS_INFO("position.x=%f" , poseGRNDx);
